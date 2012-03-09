@@ -15,7 +15,7 @@ xmpp_client.start
 
 必要なもの
 ---------------------
-1: xmpp4rライブラリ。  (gem install xmpp4r)
+1: xmpp4rライブラリ  ("gem install xmpp4r" or "bundle install")
 2: growl + growlnotify (http://growl.info/extras.php#growlnotify)
 
 
@@ -26,7 +26,7 @@ xmpp_client.start
 iChatでチャットはできるが、メール通知ができない。
 Google Talk　＝　<gmail notify> + <jabber Client>
 
-MachではiChat ＝　＜Jabber Client> である。
+MacではiChat ＝　＜Jabber Client> である。
 Gmail通知がないと、Mac環境ではGoogleTalk同等にならない。
 
 そこで rubyで実装した。
